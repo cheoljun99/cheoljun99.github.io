@@ -9,6 +9,8 @@ int main(void)
  printf("Sum is %d\n", a);
  int b = num1 * num2 * num3;
  printf("Product is %d\n", b);
+ int c = (num1 + num2 + num3) / 3;
+ printf("Average is %d\n", c);
 
  return 0;
 
