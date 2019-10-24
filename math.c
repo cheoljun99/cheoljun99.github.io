@@ -7,7 +7,10 @@ int main(void)
  scanf("%d%d%d", &num1, &num2, &num3);
  int a = num1 + num2 + num3;
  printf("Sum is %d\n", a);
+ int b = num1 * num2 * num3;
+ printf("Product is %d\n", b);
 
  return 0;
+
 } 
 
